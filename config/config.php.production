@@ -1,0 +1,68 @@
+<?php
+
+//配置信息数组
+$config = array();
+
+//网站根路径
+$config['site_url'] = 'http://admin.ios.xiaomainet.com/';
+
+//接口根地址
+$config['api_base_url'] = 'http://ios.api.jfq.zhuamob.com/';
+
+//手动路由配置
+$config['route'] = array();
+//默认控制器
+$config['route']['default'] = 'index';
+//默认方法
+$config['route']['defaultMethod'] = 'index';
+
+//开始数据库配置
+$config['db'] = array();
+$config['db']['hostname'] = 'BPO_DB_SDK_RDS_JFQ_DOMAIN';
+$config['db']['username'] = 'BPO_DB_SDK_RDS_JFQ_USER';
+$config['db']['password'] = 'BPO_DB_SDK_RDS_JFQ_PSD';
+$config['db']['database'] = 'jfq';
+$config['db']['charset'] = 'utf8';
+
+//分页配置
+//前台分页设置数组(首页)
+$config['page']=array(
+    'base_url'=>'',
+    'per_page'=>15,
+    'count'=>'',
+    'num_links'=>8,
+    'full_tag_open'=>'<ul class="pagination" id="pagefen_ul">',
+    'full_tag_close'=>'</ul>',
+    'first_tag_open'=>'<li >',//首页开始标签
+    'first_tag_close'=>'</li>',//首页结束标签
+    'last_tag_open'=>'<li >',//末页开始标签
+    'last_tag_close'=>'</li>',//末页结束标签
+    'num_tag_open'=>'<li>',//普通链接开始标签
+    'num_tag_close'=>'</li>',//普通链接结束标签'
+    'cur_tag_open'=>'<li class="active"><a href="#">',//当前页开始标签
+    'cur_tag_close'=>'<span class="sr-only">(current)</span></a></li>',//当前页结束标签
+    'prev_tag_open'=>'<li >',//上一页开始标签
+    'prev_tag_close'=>'</li>',//上一页结束标签
+    'next_tag_open'=>'<li >',//下一页开始标签
+    'next_tag_close'=>'</li>',//下一页结束标签
+    'first_link'=>'首页',
+    'last_link'=>'末页',
+    'prev_link'=>'&laquo;',
+    'next_link'=>'&raquo;'
+);
+
+//网站url
+define('SITE_URL', $config['site_url']);
+//初始化路径
+define('CONFIG_PATH', ROOT_PATH.'config/');
+define('CONTROLLERS_PATH', ROOT_PATH.'controllers/');
+define('MODELS_PATH', ROOT_PATH.'models/');
+define('CORE_PATH', ROOT_PATH.'core/');
+define('LIBRARIES_PATH', ROOT_PATH.'libraries/');
+define('RULES_PATH', ROOT_PATH.'rules/');
+define('VIEWS_PATH', ROOT_PATH.'views/');
+define('TEMPLATES_PATH', ROOT_PATH.'views/templates/');
+
+//注入模板中的变量
+$templateAssigns = array();
+?>

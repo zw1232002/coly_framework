@@ -1,0 +1,86 @@
+.light_bule{color:#5BC0DE;}
+.bule{color:#428BCA;}
+.yellow{color:#F0AD4E;}
+.red{color:#D9534F;}
+.link{color:#428BCA}
+.b{font-weight:bold;}
+.navbar-default {background:#428BCA;}
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li .show_text{color:#eef4f9;}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-nav > li > a:hover{color:#fff;}
+.navbar-default .navbar-nav > li .show_text{display:block;padding-bottom:15px;padding-top:15px;}
+.navbar-default .navbar-nav > li .show_text strong{color:#f7f03c;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-nav .cur{background:#3b7fba;color:#fff;}
+
+.navbar-nav.navbar-right{margin-right:20px !important;}
+
+
+.marketing{margin-top:55px;}
+.pagination{display: table;width: auto;margin:20px auto;}
+.inner_panel{padding:20px;}
+.panel > .table-responsive{padding:0 10px;}
+
+ul.link_list{margin-top:30px;font-size:15px;padding-left:10px;}
+ul.link_list li{margin-top:10px;}
+
+.search_condition{padding:20px;line-height:200%;}
+.search_condition .text_notice{height:32px;line-height:32px;}
+.search_condition .btn-group{margin-right:20px;}
+ .table-responsive .repost_table{margin-bottom:30px !important;margin-top:15px;}
+
+.small_notice{font-size:12px;}
+
+.box-quick-link{}
+.dashboard{padding:1px 10px 16px 10px ;}
+.dashboard span{font-size:28px !important;}
+.col-sm-2{width:10.0% !important;}
+.marketing .da_list .icon{width:100%;height:40px;}
+.marketing .da_list .icon-comments{background:url(../images/myspace_alt.png) center center no-repeat;}
+.marketing .da_list .icon-inbox{background:url(../images/task_manager.png) center center no-repeat;}
+.marketing .da_list .icon-star{background:url(../images/vimeo.png) center center no-repeat;}
+.marketing .da_list .icon-magic{background:url(../images/downloads.png) center center no-repeat;}
+.marketing .da_list .icon-eye-open{background:url(../images/live_sync.png) center center no-repeat;}
+
+.btn-xs{padding:2px 6px;}
+.input-group{margin-bottom:10px;}
+fieldset{margin-top:10px;}
+legend{font-size:14px;padding-bottom:10px;margin-bottom:15px;}
+.list-group{margin:10px 0 0 10px;}
+.box .radio, .box .checkbox{margin:0;}
+.alert{margin-top:10px;}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-top:10px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
